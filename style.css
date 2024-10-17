@@ -12,6 +12,16 @@ body {
 .logo {
   width: 100px;
 }
+.btn {
+  background-color: #ee626b;
+  border-radius: 15px;
+  padding: 5px 15px;
+  color: #ffffff;
+  border: none;
+}
+.btn:hover {
+  background-color: #f2858c;
+}
 .header-links a {
   color: white;
   padding: 5px 15px;
@@ -21,20 +31,44 @@ body {
 .header-links a:hover {
   background-color: #2386fe;
 }
-.header-links button {
-  background-color: #ee626b;
-  border-radius: 15px;
-  padding: 5px 15px;
-  color: #ffffff;
-  border: none;
-}
-.header-links button:hover {
-  background-color: #f2858c;
-}
 
 .landing-page {
   background-color: #0171f9;
   display: flex;
   justify-content: space-between;
-  padding: 10px 50px;
+  align-items: center;
+  padding: 25px 50px;
+  color: #ffffff;
+  border-radius: 0 0 50px 50px;
+}
+
+.landing-page-left-section {
+  width: 500px;
+}
+.landing-page-search input {
+  border-radius: 50px;
+  border: none;
+  outline: auto;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.landing-page-search button {
+  position: absolute;
+  left: 200px;
+  height: 30px;
+}
+.landing-page-images-container img {
+  border-radius: 20px;
+  width: 250px;
+}
+
+.trending-container {
+  padding: 25px 50px;
+}
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
